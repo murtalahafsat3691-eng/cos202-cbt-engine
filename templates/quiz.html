@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Question {{ q_num }}</title>
+<style>body{font-family:Arial;margin:50px;background:#f0f8ff;}</style>
+</head>
+<body>
+    <h1>Question {{ q_num }} of {{ total }}</h1>
+    <h2>{{ question.text }}</h2>
+    <form method="POST">
+        {% for option in question.options %}
+            <p><input type="radio" name="answer" value="{{ option[0] }}" required> <label>{{ option }}</label></p>
+        {% endfor %}
+        <button type="submit" style="font-size:18px;padding:10px 20px;">Submit Answer</button>
+    </form>
+</body>
+</html>

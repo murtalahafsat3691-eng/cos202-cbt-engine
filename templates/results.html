@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><title>Your Results</title>
+<style>body{font-family:Arial;margin:50px;background:#f0f8ff;}</style>
+</head>
+<body>
+    <h1>✅ Test Completed!</h1>
+    <h2>Your Score: {{ score }} / {{ total }} ({{ percentage }}%)</h2>
+    <p><strong>Started:</strong> {{ start_time }}</p>
+    <p><strong>Finished:</strong> {{ end_time }}</p>
+    <h2>Answer History (Stack - Recent First)</h2>
+    {% for ans in history %}
+        <p><strong>Q:</strong> {{ ans.question }}<br>Your answer: <strong>{{ ans.user_answer }}</strong> 
+        {% if ans.user_answer == ans.correct %}✅ Correct{% else %}❌ Wrong{% endif %}</p>
+    {% endfor %}
+    <a href="/">Take Test Again</a>
+</body>
+</html>
