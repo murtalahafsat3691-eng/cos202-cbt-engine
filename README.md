@@ -7,7 +7,7 @@ A web-based Computer-Based Test built with Flask for Assignment 4.
 - Tracks score live
 - Uses Stack (LIFO) to show answer history (recent first)
 - Shows start & finish timestamps
-- Full OOP with Question class
+- Full OOP with Question classs
 
 ## How to run locally (for beginners)
 
