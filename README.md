@@ -13,3 +13,6 @@ A web-based Computer-Based Test built with Flask for Assignment 4.
 
 1. Open the folder in VS Code
 2. In terminal run:
+   3. Open browser → http://127.0.0.1:5000
+
+Built for Maryam Abacha American University of Nigeria - COS 202
