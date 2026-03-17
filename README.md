@@ -1,6 +1,6 @@
 # COS 202 Mini CBT Engine
 
-A web-based Computer-Based Test built with Flask for Assignment 4.
+A web-based Computer-Based Test built with Flask for Assignment 4
 
 ## What the app does
 - Delivers 6 multiple-choice questions on Python, OOP, Flask & Data Structures.
