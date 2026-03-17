@@ -12,7 +12,7 @@ A web-based Computer-Based Test built with Flask for Assignment 4.
 ## How to run locally (for beginners)
 
 1. Open the folder in VS Code
-2. In terminal run:
+2. In terminal run: flask run
    3. Open browser → http://127.0.0.1:5000
 
 Built for Maryam Abacha American University of Nigeria - COS 202
