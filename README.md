@@ -5,7 +5,7 @@ A web-based Computer-Based Test built with Flask for Assignment 4.
 ## What the app does
 - Delivers 6 multiple-choice questions on Python, OOP, Flask & Data Structures
 - Provides Real-time analytics.
-- Uses Stack (LIFO) to show answer history (recent first)
+- Uses Stack (LIFO) to show answer history 
 - Displays start & end timestamps
 - Full OOP with Question class
 
